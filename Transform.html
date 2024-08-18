@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        section>p{
+            height: 400px;
+            width: 400px;
+            background-color: aqua;
+            /* transform: rotate(120deg);
+            transform: skew(120deg); */
+            /* transform: scale(1); */
+        }
+        section:hover{
+            /* transform: rotate(360deg) skew(360deg) scale(1); */
+            transition: 6s;
+            transform: rotateZ(360deg);
+            /* transform: rotate3d(1, 1, 1, 240deg); */
+            background: linear-gradient(red, black);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quos saepe accusantium suscipit animi, aperiam facilis fuga, incidunt repellendus reiciendis et quisquam perspiciatis. Nostrum ipsa tempora mollitia ex dicta eos!</p>
+    </section>
+</body>
+</html>

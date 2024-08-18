@@ -1,0 +1,4 @@
+ /* section>div{background-color: mediumaquamarine;} 
+ section~div{background-color: brown;}/* general Selector*/ 
+ /* section div{background-color: mediumvioletred;} 
+section>article>div{background-color: bisque;} adjacent Sibling  */

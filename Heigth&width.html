@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        section>article>div>h1 {
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <section>
+        <article>
+            <div>
+                <h1>Welcome to our Website</h1>
+            </div>
+        </article>
+    </section> -->
+
+    <script>
+
+        // Get the user's current position
+        navigator.geolocation.getCurrentPosition(position => {
+            console.log(position.coords.latitude, position.coords.longitude);
+        });
+
+    </script>
+</body>
+
+</html>
